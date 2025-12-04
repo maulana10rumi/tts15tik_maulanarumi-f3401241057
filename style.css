@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #8bc7f2;
+  color: #fe052f;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.foto-utama {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 4px solid #0d1b2a;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+button {
+  background: #1b263b;
+  color: white;
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #dff706;
+}
+
+.output {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 220px;
+}
+
+.output img {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  border: 3px solid #1b263b;
+  margin-bottom: 10px;
+}
